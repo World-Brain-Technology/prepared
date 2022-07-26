@@ -4,7 +4,7 @@ This is a well customized library for MYSQLi and PHP. Helps you in writing your 
 Some functions in prepared are:
 - SETUP: This function is to set up the connection from the appication to the database.
 
-- CHECK_CONNECTION: This function checks of the connection was successful.
+- CHECK_CONNECTION: This function checks if the connection to database was successful.
 
 - SANITIZE: This function is for sanitizing your inputs, so as to avoid SQL-INJECTIONS.
 

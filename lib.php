@@ -42,7 +42,7 @@ function ALLOW_SAFE_SYMBOLS($input) {
     return str_replace("'", "&#39;", "$input");
 }
 
-//= This function is for sanitizing your inputs, so as to avoid SQL-INJECTIONS
+//=     
 function CHECK_INPUT($input) {
     if (empty($input)) {
         echo ERROR("Please fill in all the fields!");
